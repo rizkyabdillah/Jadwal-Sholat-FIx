@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hijriah"
+        android:text="12/Rabiul Awal/1441H"
+        android:textSize="16sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/masehi"
+        android:text="Selasa, 24/01/2021"
+        android:textSize="16sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kota"
+        android:layout_below="@+id/masehi"
+        android:text="Pajarakan/Probolinggo-Indonesia"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ganti Tanggal"
+        android:id="@+id/ubah_tanggal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/kota"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_imsak"
+        android:text="Imsak : "
+        android:textSize="16sp"
+        android:layout_below="@+id/ubah_tanggal"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imsak"
+        android:text="00:00"
+        android:textSize="16sp"
+        android:layout_below="@+id/ubah_tanggal"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_subuh"
+        android:text="Subuh : "
+        android:textSize="16sp"
+        android:layout_below="@+id/imsak"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subuh"
+        android:text="00:00"
+        android:textSize="16sp"
+        android:layout_below="@+id/imsak"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_terbit"
+        android:text="Terbit : "
+        android:textSize="16sp"
+        android:layout_below="@+id/subuh"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/terbit"
+        android:text="00:00"
+        android:textSize="16sp"
+        android:layout_below="@+id/subuh"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_dhuha"
+        android:text="Dhuha : "
+        android:textSize="16sp"
+        android:layout_below="@+id/terbit"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dhuha"
+        android:text="00:00"
+        android:textSize="16sp"
+        android:layout_below="@+id/terbit"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_dzuhur"
+        android:text="Dzuhur : "
+        android:textSize="16sp"
+        android:layout_below="@+id/dhuha"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dzuhur"
+        android:text="00:00"
+        android:textSize="16sp"
+        android:layout_below="@+id/dhuha"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_ashar"
+        android:text="Ashar : "
+        android:textSize="16sp"
+        android:layout_below="@+id/dzuhur"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ashar"
+        android:text="00:00"
+        android:textSize="16sp"
+        android:layout_below="@+id/dzuhur"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_maghrib"
+        android:text="Maghrib : "
+        android:textSize="16sp"
+        android:layout_below="@+id/ashar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/maghrib"
+        android:text="00:00"
+        android:textSize="16sp"
+        android:layout_below="@+id/ashar"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_isya"
+        android:text="Isya : "
+        android:textSize="16sp"
+        android:layout_below="@+id/maghrib"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/isya"
+        android:text="00:00"
+        android:textSize="16sp"
+        android:layout_below="@+id/maghrib"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="25dp"/>
+
+
+</RelativeLayout>
